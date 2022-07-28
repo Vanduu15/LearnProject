@@ -1,0 +1,208 @@
+/* header */
+/* 
+font-size:
+font-weight: none/normal/bold/100-900
+font-style: normal, italic;
+font-family: times, "Times New Roman", "Lucida Grande", "Lucida Sans
+*/
+*{
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.clear{
+    clear: both;
+}
+
+.header img{
+    width: 150px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.header ul{
+    list-style: none;
+    background-color:#FFFF33;
+    padding: 15px 0px;
+    margin: 5px 0px 10px;
+}
+.header a{
+    text-decoration: none;
+    color: red;   
+    font-size: 22px;
+    font-weight: bold;
+/* 
+    text-decoration: underline; (link xoa lket)
+    line-height: 1.5em; 
+     word-spacing: 1px; khoang cach giua cac tu
+     letter-spacing: 1px;
+*/
+}
+/* 
+    margin:20px 
+    margin: 10px 20px;
+    top,bottom:10px
+*/
+
+/* padding:20px */
+.header ul li{
+    display: inline;
+    margin: 0 15px;
+}
+
+/* 
+    background CSS
+    background-image: url(images/bg_blue.png);
+    background-repeat: no-repeat;
+    background-position: center; // co x va y
+    background-size: cover;// nay thi phu het background
+
+*/
+/* CAROUSEL */
+.carousel{
+    background-image: url("https://nadudesign.com/uploads/files/G%e1%bb%97%20oc%20cho/thiet-ke-chung-cu-go-oc-cho%20(10).jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* INTRODUCTION */
+.intro__text {
+    text-align: left;
+    font-size: 20px;  
+    margin: 20px 40px; 
+}
+.intro__text span{
+    color: red;
+    font-weight: bold;
+}
+.intro__right, .intro__left{
+    float:left;
+    width: 50%;
+}
+.intro__smallitem{
+    float: left;
+    width: 50%;
+}
+.intro__item{
+    padding: 0px 10px 25px;
+}
+.intro__item img{
+    width: 100%;
+    display: block;
+}
+
+/* PRODUCTS */
+.products{
+    margin-bottom: 70px;
+}
+.products h2{
+    text-align: center;
+    font-size: 30px;
+}
+.products__item{
+    float: left;
+    width: 25%;
+    /* margin: 0px 10px; */
+    padding: 0px 10px;
+}
+.products__item img{
+    width: 100%;
+}
+.products__item h3{
+    font-size: 22px;
+    text-align: center;
+}
+.products__item p{
+    font-size: 18px;
+    text-align: center;
+}
+.products__item button{
+    background-color: #FFFF33;
+    border: 1px solid red;
+    border-radius: 3px;
+    color: red;
+    padding: 5px 10px;
+    margin-top: 15px;
+}
+ /* BANNER */
+.banner {
+    background-image: url(../img/nature.jpg);
+    height: 400px;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    position: relative;
+}
+.banner__circle{
+    width: 300px;
+    height: 300px;
+    /* rgb */
+    background-color: rgba(115, 32, 31, 0.8);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    top:15px;
+    left: 150px;
+    /*  */
+    /* opacity: 0.8; */
+    /* thẻ này dùng làm mờ 
+    tất cả các thuộc tính của cả thẻ div */
+}
+.banner__circle p{
+    font-size: 20px;
+    margin: 0 0 20px ;
+}
+.banner__circle p:first-child{
+    font-size: 30px;
+    margin: 50px 0 0;
+}
+.banner__circle p:nth-child(2){
+    font-size: 80px;
+    margin: 0%
+}
+/* position
+    relative: theo vị trí tương đối
+    absolute di chuyển con theo cha
+    fixed: cố định phần tử trên trang web
+*/
+/* SERVICE */
+.services{
+    margin: 30px 0px 10px;
+}
+.services__content{
+    margin: auto;
+    width: 75%;
+    text-align: center;
+}
+.service__item{
+    float: left;
+    width: 33.3333%;
+    padding: 0px 15px;
+}
+.service__item i{
+    font-size: 40px;
+}
+.service__item h2{
+    margin: 10px 0px;
+}
+.service__item p{
+    margin: 0px;
+}
+/* FOOTER */
+.footer{
+    background-color: burlywood;
+    color: red;
+    text-align: center;
+    padding: 15px 0px;
+}
+.footer h2,p{
+    margin: 0px;
+}
+.footer h2{
+    font-size: 30px;
+}
+.footer p{
+    font-size: 20px;
+}
